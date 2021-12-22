@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Menu from './pages/Menu';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 const Routing = () => {
   return (
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
